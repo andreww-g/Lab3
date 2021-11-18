@@ -24,7 +24,7 @@ public class MyWindow extends JFrame implements ActionListener {
         contentPanel = new JPanel();
         ImageIcon image = new ImageIcon("smile.png");
         this.setTitle("Sign up");
-        this.setSize(280, 210);
+        this.setSize(260, 210);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setResizable(false);
         this.setLocationRelativeTo(null);
@@ -37,7 +37,7 @@ public class MyWindow extends JFrame implements ActionListener {
         label1.setBounds(35, 20, 60, 20);
         contentPanel.add(label1);
         userLogin = new JTextField(10);
-        userLogin.setBounds(120, 20, 80, 20);
+        userLogin.setBounds(120, 20, 90, 20);
         contentPanel.add(userLogin);
 
 
@@ -45,7 +45,7 @@ public class MyWindow extends JFrame implements ActionListener {
         label2.setBounds(35, 60, 60, 20);
         contentPanel.add(label2);
         userPassword = new JPasswordField(10);
-        userPassword.setBounds(120, 60, 80, 20);
+        userPassword.setBounds(120, 60, 90, 20);
         contentPanel.add(userPassword);
 
 
